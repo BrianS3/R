@@ -1,0 +1,67 @@
+---
+title: "predefined_example"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r }
+ratings <- c(8.7, 6.9, 8.5)
+mean(ratings)
+```
+```{r }
+sort(ratings)
+```
+```{r }
+sort(ratings, decreasing = TRUE)
+```
+### Getting Min/Max
+
+```{r }
+min(ratings)
+```
+
+```{r }
+max(ratings)
+```
+
+```{r }
+moviename <- 'test movie'
+rating  <- 9
+
+memo <- paste("The movie rating for", moviename, "is", rating)
+print(memo)
+```
+```{r }
+class(rating)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
